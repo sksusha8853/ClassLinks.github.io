@@ -1,168 +1,383 @@
-<!doctype html>
-<html>
-<head><title>Class Links</title>
-<link rel = "icon" href =  "https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png" 
-        type = "image/x-icon">
-<style>
-body{
-	background-image: url("IITIlogo.jpg");
-			
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	}
-	
-	
-	</style>
-	
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Lets Join The Meet</title>
+  <!-- icon -->
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/en/c/c4/Indian_Institute_of_Technology%2C_Indore_Logo.png" type="image/x-icon">
+  <!--css-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link href="static/style.css" rel="stylesheet" />
+
+  <!-- javaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="static/index.js">
+
+  </script>
+  <!-- bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+  <!--font style-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Mea+Culpa&family=Source+Serif+Pro&display=swap" rel="stylesheet">
+
+  <!-- AOS-->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/66c1c7402f.js" crossorigin="anonymous"></script>
+
+
+
+
+
 
 </head>
-<body topmargin="2">
-	<div >
-    <img src="upper3.jpg" style="position: absolute; max-width: 100%; height: 10; top: -20;"  width="100%" height="340">
-    
-  
+
+<body>
+
+
+
+  <!-- header-->
+  <div class="header1">
+    <i class="fas fa-adjust" onclick="changeMode()" style="position:absolute;right:9px;margin-top:9px;"></i>
+    <i id="HS3" class="fas fa-plus-circle" onclick="addHS()" style="position:absolute;margin-top:38px;right: 9px;"></i>
+    <div class="heading">
+      <div class="head_name1">
+        <i class="fas fa-signal"> </i>
+        <div class="" data-aos="fade-right" data-aos-delay="100" data-aos-duration="2000" style="display:inline-flex;">
+          &nbsp Lets Join The Meet
+        </div>
+
+      </div>
+      <div class="head_name2">
+        Fourth Semester of Computer Science and Engineering Branch
+
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+  <!-- Slides -->
+
+
+  <!-- <div id="carouselExampleSlidesOnly" class="carousel slide border" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="template\img3.png" class="d-block w-100 " alt="welcome">
+      </div>
+      <div class="carousel-item">
+        <img src="template\img4.png" class="d-block w-100" alt="cr">
+      </div>
+      <div class="carousel-item">
+        <img src="template\img5.png" class="d-block w-100" alt="senator">
+      </div>
+    </div>
+  </div> -->
 
   <br>
+
+
+
+
+
+
+
+
+
+
+  <!-- class links -->
+  <div class="cl" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000">
+    <div class="row">
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        Days
+      </div>
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        Monday
+      </div>
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        Tuesday
+      </div>
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        Wednesday
+      </div>
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        Thrusday
+      </div>
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        Friday
+      </div>
+    </div>
+
+
+    <!-- 9 to 10 -->
+    <div class="row">
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        09:00 - 10:00
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/bcv-bbrb-sru" target="_blank" ; class="">CS-206
+        </a>
+      </div>
+      <div class="col-2  ">
+        <a href="" class="https://meet.google.com/gjp-doiz-iea" target="_blank" ;> CS-206</a>
+      </div>
+      <div class="col-2  ">
+
+      </div>
+      <div class="col-2  ">
+
+      </div>
+      <div class="col-2  ">
+        <a href="" class="https://meet.google.com/pqe-cjnt-aws" target="_blank" ;> CS-206(T)</a>
+      </div>
+    </div>
+
+
+    <!-- 10 to 11 -->
+    <div class="row">
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        10:00 - 11:00
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/cjg-haqj-frp" target="_blank" ; class="">CS-204</a>
+      </div>
+      <div class="col-2  ">
+
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/cjg-haqj-frp" target="_blank" ; class=""> CS-204</a>
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/ynm-qhir-frx" target="_blank" ; class="">CS-208</a>
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/cjg-haqj-frp" target="_blank" ; class="">CS-204(T)</a>
+      </div>
+    </div>
+
+    <!-- 11 to 12-->
+
+    <div class="row">
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        11:00 - 12:00
+      </div>
+      <div class="col-2  ">
+        <a href="https://iiti.webex.com/iiti/j.php?MTID=m80b5268a412a8848b32c6e231a0b3715" target="_blank" ; class="">MA-204</a>
+      </div>
+      <div class="col-2  ">
+
+      </div>
+      <div class="col-2  ">
+        <a href="https://iiti.webex.com/iiti/j.php?MTID=m80b5268a412a8848b32c6e231a0b3715" target="_blank" ; class=""> MA-204</a>
+      </div>
+      <div class="col-2  ">
+        <a href="" class="https://meet.google.com/ynm-qhir-frx" target="_blank" ;> CS-208</a>
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/ynm-qhir-frx" target="_blank" ; class=""> CS-208(T)</a>
+      </div>
+    </div>
+
+
+    <!-- 12 to 1 -->
+
+    <div class="row">
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        12:00 - 01:00
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/fzn-tpkc-eop" target="_blank" ; class=""> CS-202</a>
+      </div>
+      <div class="col-2  ">
+        <a href="https://iiti.webex.com/iiti/j.php?MTID=m80b5268a412a8848b32c6e231a0b3715" target="_blank" ; class=""> MA-204</a>
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/fzn-tpkc-eop" target="_blank" ; class=""> CS-202</a>
+      </div>
+      <div class="col-2  ">
+        <a href="https://meet.google.com/fzn-tpkc-eop" target="_blank" ; class=""> CS-202(T)</a>
+      </div>
+      <div class="col-2  ">
+
+      </div>
+    </div>
+
+    <!-- 1 TO 2 -->
+    <div class="row">
+      <div class="col-2  " style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">
+        01:00 - 02:00
+      </div>
+      <div class="col-10  ">
+        Break
+      </div>
+    </div>
+
+    <!-- 2 to 3 -->
+    <div class="row">
+      <div class="col-2" style="background-color:white;">
+        <!-- <div class="row" style="border:none;">
+          <div class="col-12   ">
+            02:00 - 03:00
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12   ">
+            03:00 - 04:00
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12   ">
+            04:00 - 05:00
+          </div>
+        </div> -->
+
+
+        <table>
+          <tr style="height:40%;">
+            <td style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">02:00 - 03:00</td>
+          </tr>
+          <tr style="height:20%;">
+            <td style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">03:00 - 04:00</td>
+          </tr>
+          <tr style="height:20%;">
+            <td style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">04:00 - 05:00</td>
+          </tr>
+          <tr style="height:20%;">
+            <td style="background-image: linear-gradient(135deg, #f34089 40%, #fc890d);">05:00 - 06:00</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="col-2" style="vertical-align: middle;">
+        <table>
+          <tr style="height:75%;">
+            <td><a href="https://meet.google.com/cjg-haqj-frp" target="_blank" ; class=""> CS-254(P)</a></td>
+          </tr>
+          <tr style="height:25%">
+            <td style=" background-image: linear-gradient(144deg,#00DDEB ,#AF40FF 50%,#5B42F3);">
+              &nbsp
+            </td>
+          </tr>
+        </table>
+      </div>
+
+
+      <div class="col-2" style="background-color:white">
+        <table>
+          <tr style="height:50%;">
+            <td style=" background-image: linear-gradient(144deg,#00DDEB ,#AF40FF 50%,#5B42F3);">
+              <div id="hs1" style="background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);">
+                <a href="https://meet.google.com/azp-errv-nso" target="_blank" ; class=""> HS-210</a>
+
+              </div>
+              &nbsp
+            </td>
+          </tr>
+          <tr style="height:50%">
+            <td>
+              <a href="https://iiti.webex.com/iiti/j.php?MTID=m80b5268a412a8848b32c6e231a0b3715" target="_blank" ; class=""> MA-204(P)</a>
+            </td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="col-2">
+        <table>
+          <tr style="height:75%;">
+            <td><a href="https://meet.google.com/iyp-wrpk-bxk" target="_blank" ; class="">CS-256(P)</a></td>
+          </tr>
+          <tr style="height:25%">
+            <td style=" background-image: linear-gradient(144deg,#00DDEB ,#AF40FF 50%,#5B42F3);">
+              &nbsp
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="col-2  " style="vertical-align: middle;">
+        <div id="hs2" style="background-image: linear-gradient(144deg,#00DDEB ,#AF40FF 50%,#5B42F3);">
+          <a href="https://meet.google.com/azp-errv-nso" target="_blank" ; class=""> HS-210</a>
+
+        </div>
+
+      </div>
+      <div class="col-2" style="vertical-align: middle;">
+        <table>
+          <tr style="height:75%;">
+            <td><a href="https://meet.google.com/ynm-qhir-frx" target="_blank" ; class="">CS-258(P)</a></td>
+          </tr>
+          <tr style="height:25% ;">
+            <td style=" background-image: linear-gradient(144deg,#00DDEB ,#AF40FF 50%,#5B42F3);">
+              &nbsp
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
   <br>
-  <br>  <br><br>
-	<h2><font size=150 style="position: relative; color: RED; text-shadow: 0 0 10px #000, 0 0 5px #000;"><center>Third Online Semester</font></center></font></h2>
-	<marquee><font face="Algerian" size="10" color="Red">Welcome in <font face="algerian" color="yellow" size="10"> Third Online Semester</font> of IIT INDORE.</font></marquee>
-	<br><br><br><br><br><p></p><br>
-	<table width="100%" cellspacing="3"  >
-	<tr height="40">
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>Day:</center></font></td>
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>8:00-8:50</center></font></td>
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>9:00-9:50</center></font></td>
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>10:00-10:50</center></font></td>
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>11:00-11:50</center></font></td>
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>12:00-12:50</center></font></td>
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>1:00-2:00</center></font></td>
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>2:00-3:50</center></font></td>
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>3:00-5:50</center></font></td>
 
-	</tr >
-	<tr height="90">
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>Monday</center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/fzn-tpkc-eop" target="_blank">L:CS 201</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/bpi-hxwd-qdk" target="_blank">L:CS 207</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" rowspan="6"><font face="Algerian" size="5" color="blue"><center>Lunch <br>Break</center></font></td>
-		
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="http://meet.google.com/yza-tsmu-bft" target="_blank">P:IC 211</a></center></font></td>
 
-	</tr >
-	<tr height="90">
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>Tuesday</center></font></td>
-		<td bgcolor="#98EEF6" colspan="1"><font face="Algerian" size="5" color="Red"><center><a href="https://iiti.webex.com/iiti/j.php?MTID=m7ae2227b44ececf3fa76c2b760eaee4a" target="_blank">T:MA 203</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/fzn-tpkc-eop" target="_blank">L:CS 201</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/bpi-hxwd-qdk" target="_blank">L:CS 207</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red" nowrap><center></center></font></td>
-		
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center><a href="https://meet.google.com/isb-tbap-gpa" target="_blank">P:CS 253</a></font></td>
+  <!-- MyClouds links -->
 
-	</tr >
-	<tr height="90">
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>Wednesday</center></font></td>
-		<td bgcolor="#98EEF6" colspan="1"><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/fzn-tpkc-eop" target="_blank">T:CS 201</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://iiti.webex.com/iiti/j.php?MTID=m52ca9a26989f6339ad0bb684444b9901" target="_blank">L:MA 203</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/bpi-hxwd-qdk" target="_blank">P:CS 257</a></center></font></td>
+  <div class="" data-aos="fade-up" data-aos-delay="100" data-aos-duration="2000" style="background-image: linear-gradient(144deg,#AF40FF, #5B42F3 50%,#00DDEB);">
+    <div class="" style="font-size:50px; color:blue;">
+      Study Materials
 
-	</tr >
-	<tr height="90">
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>Thrusday</center></font></td>
-		<td bgcolor="#98EEF6" colspan="1"><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" colspan="1"><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/isb-tbap-gpa" target="_blank">L:CS 203</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/bpi-hxwd-qdk" target="_blank">L:CS 207</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-	</tr >
-	<tr height="90">
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>Friday</center></font></td>
-		<td bgcolor="#98EEF6" colspan="1"><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" colspan="1"><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/isb-tbap-gpa" target="_blank">T:CS 203</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://meet.google.com/isb-tbap-gpa" target="_blank">L:CS 203</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://iiti.webex.com/iiti/j.php?MTID=m52ca9a26989f6339ad0bb684444b9901" target="_blank">L:MA 203</a></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
+    </div>
 
-	</tr >
-	<tr height="90">
-		<td bgcolor="#16E2F5" ><font face="Algerian" size="5" color="Red"><center>Saturday</center></font></td>
-		<td bgcolor="#98EEF6" colspan="1"><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center><a href="https://iiti.webex.com/iiti/j.php?MTID=mfb4f31fc779a803cb747d19838e727dd" target="_blank">L:MA 203</a></center></font></td>
-		
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
-		<td bgcolor="#98EEF6" ><font face="Algerian" size="5" color="Red"><center></center></font></td>
+    <button class="button-64" role="button"><span><a href="#" target="_blank" ;>MA-204</a></span></button>
+    <button class="button-64" role="button"><span><a href="#" target="_blank" ;>CS-202</a></span></button>
+    <button class="button-64" role="button"><span><a href="#" target="_blank" ;>CS-204</a></span></button>
+    <button class="button-64" role="button"><span><a href="#" target="_blank" ;>CS-206</a></span></button>
+    <button class="button-64" role="button"><span><a href="https://drive.google.com/drive/folders/1l6tsq8CycVfqiG0pN0mVxlPXVkjTf82k?usp=sharing" target="_blank" ;>Additional</a></span></button>
+    <button class="button-64" role="button"><span><a href="#" target="_blank" ;>CS-208</a></span></button>
+    <button class="button-64" role="button"><span><a href="#" target="_blank" ;>CS-256</a></span></button>
+    <button class="button-64" role="button"><span><a href="#" target="_blank" ;>CS-258</a></span></button>
+    <button class="button-64" role="button"><span><a href="#" target="_blank" ;>CS-254</a></span></button>
 
-	</tr >
-	</table>
-	<br><br><br>
-	<div class="StudyMaterials">
-	
-		<table width="100%">
-		<tr><td>  </td><td bgcolor="#32C6A6"> 
-		<font face="Algerian" size="7" color="BLue"><center>Study Materials</center></font>
-		
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://drive.google.com/drive/folders/1X-hkp0i8bNdXjLG3UXQ3hzzOYoyjRc_R?usp=sharing" target="_blank">MA 203: Mathematics</a></center></font>
-		
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://drive.google.com/drive/folders/13RCejONTBA2DSo-h2t2X0Wh0FlyTl1pn?usp=sharing" target="_blank">CS 203: Data Structures & Algorithms</a></center></font>
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://drive.google.com/drive/folders/13FGdWCvX1YjN3nGNNe-D8DYIiYIv7yzc?usp=sharing" target="_blank">CS 207: Data Base & Information System</a></center></font>
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://drive.google.com/drive/folders/1U86mlK5nsupUG9wLFriZKPVr6G-6Y2Ye?usp=sharing" target="_blank">CS 201: Discrete Mathematical Structure</a></center></font><br>
-		</td>
-		<td>  </td>
-		</tr>
-	
-	</table>
-	</div>
-	<br><br>
-	<div class="StudyMaterials">
-	
-		<table width="100%">
-		<tr><td>  </td><td bgcolor="#32C6A6"> 
-		<font face="Algerian" size="7" color="BLue"><center>Class Lectures</center></font>
-		
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://mycloud.iiti.ac.in/index.php/s/tZLSByArBCJmNWX?path=%2FCSE" target="_blank">Mycloud</a></center></font>
-		
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://drive.google.com/drive/folders/16OGWLCYSPGAYei0LfZWqk3CjD038PmSB?usp=sharing_eil_m&ts=61168fb8" target="_blank">MA 203: Mathematics</a></center></font>
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://drive.google.com/drive/folders/1cAmZbbE5OsgbNY1vn2NlOKehCMf_vczw?usp=sharing" target="_blank">CS 203: Data Structures & Algorithms</a></center></font>
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://classroom.google.com/c/Mzc1NjM3MDQ3MTcx?cjc=qsxwck2" target="_blank">CS 207: Data Base & Information System</a></center></font>
-		<font face="Algerian" size="5" color="#C63248"><center><a href="https://mycloud.iiti.ac.in/index.php/s/D2Yg66Z7o6TKWej" target="_blank">CS 201: Discrete Mathematical Structure</a></center></font><br>
-		</td>
-		<td>  </td>
-		</tr>
-	
-	</table>
-	</div>
-	<br><br>
-	<div class="footer">
-	<table width="100%" >
-			<tr><td bgcolor="#C6F698"><font face="Algerian" size="6" color="Red"><center><font face="Algerian" size="6" color="Blue">Created By:</font> Saurabh Kumar Singh<br></center><font face="Algerian" size="6" color="blue"><center>SKSUSHA8853</center></font></font></td></tr>
-	
-	
-	
-	</table>
-	
-	</div>
-	</div>
-	
-	
-	
+    <br>
+    &nbsp
+
+  </div>
+
+  <br>
+
+  <div class="footer1">
+    <div class="">
+      Created By : <i style="font-family: 'Mea Culpa', cursive;">Saurabh Kumar Singh</i>
+
+
+    </div>
+    <div class="social">
+      <a href="https://www.facebook.com/sksusha8853" target="_blank" ; class="fab fa-facebook"></a>
+      <a href="https://www.instagram.com/sksusha8853/" target="_blank" ; class="fab fa-instagram"></a>
+      <a href="https://twitter.com/Saurabh24954873" target="_blank" ; class="fab fa-twitter"></a>
+      <a href="https://www.linkedin.com/in/saurabh-kumar-singh-b6a832203/" target="_blank" ; class="fab fa-linkedin"></a>
+      <a href="https://github.com/sksusha8853" target="_blank" ; class="fab fa-github"></a>
+    </div>
+
+
+  </div>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
+
 </html>
